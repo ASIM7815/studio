@@ -1,6 +1,14 @@
 import type { Contact } from '@/lib/types';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { MessageSquare } from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { MessageSquare, User, Settings, LogOut } from 'lucide-react';
 
 interface AppHeaderProps {
   user: Contact;
@@ -15,10 +23,31 @@ export default function AppHeader({ user }: AppHeaderProps) {
           ConnectNow
         </h1>
       </div>
-      <Avatar className="h-9 w-9">
-        <AvatarImage src={user.avatarUrl} alt={user.name} data-ai-hint="person portrait" />
-        <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
-      </Avatar>
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Avatar className="h-9 w-9 cursor-pointer">
+            <AvatarImage src={user.avatarUrl} alt={user.name} data-ai-hint="person portrait" />
+            <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
+          </Avatar>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end">
+          <DropdownMenuLabel>My Account</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <User className="mr-2 h-4 w-4" />
+            <span>Profile</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Settings className="mr-2 h-4 w-4" />
+            <span>Settings</span>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem>
+            <LogOut className="mr-2 h-4 w-4" />
+            <span>Log out</span>
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
     </header>
   );
 }
