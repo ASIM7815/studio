@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "user1",
+      "description": "User avatar 1",
+      "imageUrl": "https://picsum.photos/seed/user1/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user2",
+      "description": "User avatar 2",
+      "imageUrl": "https://picsum.photos/seed/user2/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user3",
+      "description": "User avatar 3",
+      "imageUrl": "https://picsum.photos/seed/user3/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user4",
+      "description": "User avatar 4",
+      "imageUrl": "https://picsum.photos/seed/user4/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user5",
+      "description": "User avatar 5",
+      "imageUrl": "https://picsum.photos/seed/user5/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user6",
+      "description": "User avatar 6",
+      "imageUrl": "https://picsum.photos/seed/user6/100/100",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "remote-feed",
+      "description": "Remote video feed placeholder",
+      "imageUrl": "https://picsum.photos/seed/remoteFeed/800/600",
+      "imageHint": "person video"
+    },
+    {
+      "id": "local-feed",
+      "description": "Local video feed placeholder",
+      "imageUrl": "https://picsum.photos/seed/localFeed/200/150",
+      "imageHint": "person selfie"
+    }
+  ]
 }
