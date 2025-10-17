@@ -12,7 +12,12 @@
           "package_name": "asim.bas.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "104517837705-tsgs4at9fqm2h30jghh78209tanh28jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyArRM8Uhm6ec-lPL97qFQCUAHFhcqmtEBg"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104517837705-tsgs4at9fqm2h30jghh78209tanh28jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -31,7 +41,12 @@
           "package_name": "www.asimsaadz.com"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "104517837705-tsgs4at9fqm2h30jghh78209tanh28jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyArRM8Uhm6ec-lPL97qFQCUAHFhcqmtEBg"
@@ -39,7 +54,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104517837705-tsgs4at9fqm2h30jghh78209tanh28jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
