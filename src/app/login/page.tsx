@@ -28,9 +28,9 @@ export default function LoginPage() {
       {/* Logo */}
       <div className="absolute top-8 left-8 flex items-center gap-2">
         <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center">
-          <span className="text-white font-bold text-xl">S</span>
+          <span className="text-white font-bold text-xl">I</span>
         </div>
-        <span className="text-black font-semibold text-xl">Studio</span>
+        <span className="text-black font-semibold text-xl">INTERACTz</span>
       </div>
 
       {/* Login Card */}
